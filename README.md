@@ -1,2 +1,5 @@
 # EDD_License_System
-License system and plugin update class for WooCommerce extensions via EDD
+PHP class to manage plugin license and automatic update delivery in WooCommerce extensions from an Easy Digital Downloads store.
+
+## Dependecncy
+This class depends on official `EDD_SL_Plugin_Updater` class.
