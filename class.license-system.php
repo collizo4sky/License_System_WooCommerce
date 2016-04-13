@@ -49,8 +49,7 @@ class License_System {
 
 
 		add_action( 'admin_notices', array( $this, 'license_admin_notice' ) );
-
-		//		var_dump(did_action( 'admin_notices' ));
+		
 	}
 
 	public function set_option_name( $value ) {
