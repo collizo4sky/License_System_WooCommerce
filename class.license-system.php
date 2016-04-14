@@ -1,5 +1,7 @@
 <?php
 
+namespace OmnipayWP\WooCommerce;
+
 class License_System {
 
 	/** @var string db option name */
