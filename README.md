@@ -1,4 +1,4 @@
-# License_System_WooCommerc
+# License_System_WooCommerce
 Our in-house PHP class to manage plugin license and automatic update delivery in WooCommerce extensions from an Easy Digital Downloads store.
 
 ## Dependecncy
