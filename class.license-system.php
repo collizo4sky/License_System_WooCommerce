@@ -39,7 +39,7 @@ class License_System {
 		$this->license_status = get_option( "{$this->option_name}_license_status", false );
 
 		$plugin_setting    = get_option( 'woocommerce_' . $this->method_id . '_settings', null );
-		$this->license_key = $plugin_setting['license_key'];
+		$this->license_key = @$plugin_setting['license_key'];
 
 		add_action( 'admin_init', array( $this, 'plugin_updater' ), 0 );
 		add_action( 'admin_init', array( $this, 'activate_license' ), 0 );
